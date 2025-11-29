@@ -86,7 +86,7 @@ ASSET_URL="https://github.com/fly8oy/guppyscreen/releases/latest/download/$ASSET
 
 if [ "$1" = "nightly" ] || [ "$2" = "nightly" ]; then
     printf "${yellow}Installing nightly build ${white}\n"
-    ASSET_URL="https://github.com/ballaswag/fly8oy/releases/download/nightly/$ASSET_NAME.tar.gz"
+    ASSET_URL="https://github.com/fly8oy/guppyscreen/releases/download/nightly/$ASSET_NAME.tar.gz"
 fi
 
 printf "${green} Downloading asset: $ASSET_NAME.tar.gz ${white}\n"
