@@ -13,7 +13,7 @@ fi
 CURL=`which curl`
 if grep -Fqs "ID=buildroot" /etc/os-release
 then
-    wget -q --no-check-certificate https://raw.githubusercontent.com/fly8oy/k1-discovery/main/bin/curl -O /tmp/curl
+    wget -q --no-check-certificate https://raw.githubusercontent.com/ballaswag/k1-discovery/main/bin/curl -O /tmp/curl
     chmod +x /tmp/curl
     CURL=/tmp/curl
 fi
