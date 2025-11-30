@@ -79,7 +79,7 @@ fi
 rm -rf /root/.cache
 
 ## bootstrap for ssl support
-wget -q --no-check-certificate https://raw.githubusercontent.com/fly8oy/k1-discovery/main/bin/curl -O /tmp/curl
+wget -q --no-check-certificate https://raw.githubusercontent.com/ballaswag/k1-discovery/main/bin/curl -O /tmp/curl
 chmod +x /tmp/curl
 
 ASSET_URL="https://github.com/fly8oy/guppyscreen/releases/latest/download/$ASSET_NAME.tar.gz"
