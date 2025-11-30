@@ -38,7 +38,7 @@ For Arch and derivatives install 'base-devel' and 'sdl2' packages.
 
 To build guppyscreen for Mipsel (Ingenic X2000E) - specific to the K1 SoC, you will need the mips-gcc720 tool chain.
 
-1. Download the toolchain [here](https://github.com/fly8oy/k1-discovery/releases/download/1.0.0/mips-gcc720-glibc229.tar.gz)
+1. Download the toolchain [here](https://github.com/ballaswag/k1-discovery/releases/download/1.0.0/mips-gcc720-glibc229.tar.gz)
 2. `tar xf mips-gcc720-glibc229.tar.gz && export PATH=<path-to-mips-toolchain/bin>:$PATH`
 
 ### The Code
